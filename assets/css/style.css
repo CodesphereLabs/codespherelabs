@@ -21,15 +21,15 @@
    */
 
   --st-patricks-blue: hsl(236, 57%, 28%);
-  --amaranth-purple: hsl(266, 75%, 24%);
+  --amaranth-purple: hsl(242, 90%, 33%);
   --royal-blue-dark: hsl(231, 68%, 21%);
   --chrome-yellow: hsl(39, 100%, 52%);
   --space-cadet-1: hsl(230, 41%, 25%);
-  --space-cadet-2: hsl(230, 59%, 16%);
+  --space-cadet-2: hsl(228, 73%, 23%);
   --winter-sky_50: hsla(258, 45%, 34%, 0.5);
   --purple-navy: hsl(236, 26%, 43%);
   --ksu-purple: hsl(194, 97%, 40%);
-  --winter-sky: hsl(268, 54%, 44%);
+  --winter-sky: hsl(246, 96%, 20%);
   --razzmatazz: hsl(207, 64%, 43%);
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
@@ -182,6 +182,10 @@ body {
 .w-100 { width: 100%; }
 
 .banner-animation { animation: waveAnim 2s linear infinite alternate; }
+
+.rotate-image {
+  transform: rotate(90deg);
+}
 
 @keyframes waveAnim {
   0% { transform: translate(0, 0) rotate(0); }
