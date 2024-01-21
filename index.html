@@ -46,7 +46,7 @@
         <nav class="navbar" data-navbar>
 
             <div class="navbar-top">
-<!--                <a href="#" class="logo"></a>-->
+                <!--                <a href="#" class="logo"></a>-->
                 <h3 style="margin-left: -5px">CODESPHERE LABS</h3>
                 <!--                <img src="./assets/images/logo_1.png" alt="" style="width: 250px; height: 100px">-->
                 <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
@@ -77,7 +77,7 @@
                 </li>
 
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+                    <a href="#contact" class="navbar-link" data-navbar-link>Contact Us</a>
                 </li>
 
             </ul>
@@ -663,6 +663,51 @@
             </div>
         </section>
 
+        <!--
+          - #CONTACT
+        -->
+        <section class="section contact" id="contact">
+
+            <div class="row">
+                <div class="contact-form padd-15">
+                    <form id="contactForm" onsubmit="submitForm(event)">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Name" type="text" id="name" required>
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Email" type="email" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Subject" type="text" id="subject" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" id="message"
+                                              required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <button class="btn" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
     </article>
 </main>
 
@@ -704,6 +749,12 @@
                     <li>
                         <a href="#" class="social-link">
                             <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkdin"></ion-icon>
                         </a>
                     </li>
 
